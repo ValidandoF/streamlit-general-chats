@@ -1,0 +1,13 @@
+streamlit>=1.26.0
+langchain>=0.0.217
+duckduckgo-search
+anthropic>=0.3.0
+trubrics>=1.5.1
+pymongo==4.5.0
+
+openai
+prompt_toolkit
+
+
+#streamlit>=1.26.0
+#langchain>=0.0.217
