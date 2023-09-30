@@ -29,7 +29,7 @@ def idea_enhacer(idea):
 with st.form("myform"):
     topic_text = st.text_input("Enter prompt:", "")
     submitted = st.form_submit_button("Submit")
-    if not openai_api_key:
+    if not open_ai_key:
         st.info("Please add your OpenAI API key to continue.")
     elif submitted:
         idea_enhacer(topic_text)
